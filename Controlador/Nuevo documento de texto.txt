@@ -1,0 +1,4 @@
+select id, count(id)
+from inscribe
+group by id
+having count(id)>1
